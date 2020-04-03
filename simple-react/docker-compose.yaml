@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  web:
+    image: ttr-docker-registry:5000/simple-react:latest
+    ports:
+      - "8080:80"
